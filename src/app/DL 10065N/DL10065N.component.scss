@@ -1,0 +1,16 @@
+.analyser-right {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.spectrum {
+    width: 256px;
+    height: 126px;
+}
+
+.rowest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

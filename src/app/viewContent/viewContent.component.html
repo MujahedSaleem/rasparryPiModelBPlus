@@ -1,0 +1,26 @@
+<mat-accordion class="example-headers-align">
+    <mat-expansion-panel class="setBorders" *ngFor="let item of data">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{item.desc}}
+            </mat-panel-title>
+            <mat-panel-description>
+                {{item.staff}}
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <mat-divider>
+        </mat-divider>
+        <div fxLayout="row" style="margin-top:10px " fxLayoutAlign="space-between center" fxLayoutGap="gappx">
+            <div>
+                <a href="{{item.link}}" target="_blank">{{item.fileName}}</a>
+
+
+                <mat-icon>expand_more</mat-icon>
+
+            </div>
+            <div>
+                <a [routerLink]="['/home']"> Go to the experminet </a>
+            </div>
+        </div>
+    </mat-expansion-panel>
+</mat-accordion>

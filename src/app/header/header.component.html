@@ -1,0 +1,29 @@
+<nav>
+    <div fxLayout="column" fxLayoutAlign="start stretch" fxLayoutGap="gappx">
+
+        <mat-toolbar style="color: white;background: linear-gradient(#2c6c63,#2c8c63);font-size: 20px "
+            fxLayoutGap="20px">
+            <div fxLayout="row" style="width: 100%" fxLayoutAlign="space-between center">
+                <div fxLayout="row"    fxLayoutGap="20px">
+                    <a [routerLink]="['/overview']">Home</a>
+                    <a [routerLink]="['/login']">Login</a>
+                    <a [routerLink]="['/home']">Models</a>
+                </div>
+                <h2 style="    color:#efb727
+                ">Smart Grid Lab</h2>
+            </div>
+
+
+        </mat-toolbar>
+
+        <div fxLayout="row" fxLayoutAlign="space-evenly center">
+            <div class="fill fillLogo"
+                style='border-radius:8px;background-image:url("https://www.alquds.edu/templates/alquds_university/images/styles/style1/logo.png");'>
+            </div>
+            <div class="fill"
+                style='border-radius:8px;background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fcognitiveworld%2Ffiles%2F2019%2F03%2FDepositphotos_125943316_l-2015-1-1200x760.jpg");'>
+            </div>
+        </div>
+
+    </div>
+</nav>

@@ -1,0 +1,31 @@
+<button (click)="submitConnections()">Get All Connections 
+</button>
+<button (click)="Goscada()">Go To scada
+</button>
+<button (click)="clearAll()">clearAll
+</button>
+
+<div class="main" style="margin-top:20px ;border: 1px black solid">
+
+
+    <app-frame [name]="m" (closed)="remove(i)" *ngFor="let m of modules; let i = index" [ngSwitch]="m">
+
+        <app-DL1017L *ngSwitchCase="'DL 1017L'"></app-DL1017L>
+        <app-DL1017R *ngSwitchCase="'DL 1017R'"></app-DL1017R>
+        <app-DL9013G *ngSwitchCase="'DL 9013G'"></app-DL9013G>
+        <app-DL9031 *ngSwitchCase="'DL 9031'"></app-DL9031>
+        <app-DL10065N *ngSwitchCase="'DL 10065N'"></app-DL10065N>
+        <app-DL2108TAL-SW *ngSwitchCase="'DL2108TAL-SW'"></app-DL2108TAL-SW>
+
+    </app-frame>
+</div>
+
+<br clear="both">
+<a class="add-module-btn" (click)="add('DL 1017L')">DL 1017L</a>
+<a class="add-module-btn" (click)="add('DL 1017R')">DL 1017R</a>
+<a class="add-module-btn" (click)="add('DL 9013G')">DL 9013G</a>
+<a class="add-module-btn" (click)="add('DL 9031')">DL 9031</a>
+<a class="add-module-btn" (click)="add('DL 10065N')">DL 10065N</a>
+<a class="add-module-btn" (click)="add('DL2108TAL-SW')">DL2108TAL-SW</a>
+<app-patch-overlay *ngIf="showPatches"></app-patch-overlay>
+<br clear="both">

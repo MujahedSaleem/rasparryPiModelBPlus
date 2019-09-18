@@ -1,0 +1,53 @@
+2019-06-27T09:34:31.841Z - info:   [08628] *** FOLDER: c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master ***
+2019-06-27T09:34:31.842Z - info:   [08628] AzureReposVSCode/1.149.2 (VSCode 1.35.1; Windows_NT 10.0.17134; Node 10.2.0)
+2019-06-27T09:34:31.842Z - debug:  [08628] Looking for an External Context at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-27T09:34:31.842Z - debug:  [08628] No External Context at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-27T09:34:31.844Z - debug:  [08628] Looking for TFVC repository at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-27T09:34:31.844Z - debug:  [08628] TFVC Creating Tfvc object with localPath='undefined'
+2019-06-27T09:34:31.845Z - debug:  [08628] Using TFS proxy: 
+2019-06-27T09:34:31.845Z - debug:  [08628] TFVC Retrieved from settings; localPath=''
+2019-06-27T09:34:31.845Z - warn:   [08628] TFVC Couldn't find where the TF command lives on disk.
+2019-06-27T09:34:31.845Z - error:  [08628] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2019-06-30T06:05:19.484Z - info:   [11496] *** FOLDER: c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master ***
+2019-06-30T06:05:19.485Z - info:   [11496] AzureReposVSCode/1.149.2 (VSCode 1.35.1; Windows_NT 10.0.17134; Node 10.2.0)
+2019-06-30T06:05:19.486Z - debug:  [11496] Looking for an External Context at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-30T06:05:19.486Z - debug:  [11496] No External Context at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-30T06:05:19.489Z - debug:  [11496] Looking for TFVC repository at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-30T06:05:19.489Z - debug:  [11496] TFVC Creating Tfvc object with localPath='undefined'
+2019-06-30T06:05:19.490Z - debug:  [11496] Using TFS proxy: 
+2019-06-30T06:05:19.491Z - debug:  [11496] TFVC Retrieved from settings; localPath=''
+2019-06-30T06:05:19.491Z - warn:   [11496] TFVC Couldn't find where the TF command lives on disk.
+2019-06-30T06:05:19.491Z - error:  [11496] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2019-06-30T06:06:15.535Z - info:   [05664] *** FOLDER: c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master ***
+2019-06-30T06:06:15.536Z - info:   [05664] AzureReposVSCode/1.149.2 (VSCode 1.35.1; Windows_NT 10.0.17134; Node 10.2.0)
+2019-06-30T06:06:15.536Z - debug:  [05664] Looking for an External Context at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-30T06:06:15.536Z - debug:  [05664] No External Context at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-30T06:06:15.553Z - debug:  [05664] Looking for TFVC repository at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-06-30T06:06:15.553Z - debug:  [05664] TFVC Creating Tfvc object with localPath='undefined'
+2019-06-30T06:06:15.554Z - debug:  [05664] Using TFS proxy: 
+2019-06-30T06:06:15.554Z - debug:  [05664] TFVC Retrieved from settings; localPath=''
+2019-06-30T06:06:15.554Z - warn:   [05664] TFVC Couldn't find where the TF command lives on disk.
+2019-06-30T06:06:15.555Z - error:  [05664] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2019-07-13T06:46:46.666Z - info:   [09616] *** FOLDER: c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master ***
+2019-07-13T06:46:46.667Z - info:   [09616] AzureReposVSCode/1.149.2 (VSCode 1.36.1; Windows_NT 10.0.17134; Node 10.11.0)
+2019-07-13T06:46:46.667Z - debug:  [09616] Looking for an External Context at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-07-13T06:46:46.668Z - debug:  [09616] No External Context at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-07-13T06:46:46.670Z - debug:  [09616] Looking for TFVC repository at c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-07-13T06:46:46.670Z - debug:  [09616] TFVC Creating Tfvc object with localPath='undefined'
+2019-07-13T06:46:46.671Z - debug:  [09616] Using TFS proxy: 
+2019-07-13T06:46:46.671Z - debug:  [09616] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-07-13T06:46:46.672Z - debug:  [09616] TFVC Repository created with repositoryRootFolder='c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master'
+2019-07-13T06:46:46.673Z - debug:  [09616] TFVC Repository.CheckVersion
+2019-07-13T06:46:46.674Z - debug:  [09616] TFVC: tf add -noprompt -?
+2019-07-13T06:46:46.698Z - debug:  [09616] TFVC: spawned new process (duration: 23ms)
+2019-07-13T06:46:46.710Z - debug:  [09616] TFVC: spawned new process (duration: 11ms)
+2019-07-13T06:46:47.641Z - debug:  [09616] TFVC: add exit code: 0 (duration: 967ms)
+2019-07-13T06:46:47.641Z - debug:  [09616] TFVC Minimum required version: 14.102.0
+2019-07-13T06:46:47.642Z - debug:  [09616] TFVC (TF.exe, TF.cmd) version: 16.133.28906.1
+2019-07-13T06:46:47.642Z - debug:  [09616] TFVC Repository.FindWorkspace with localPath='c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master'
+2019-07-13T06:46:47.642Z - debug:  [09616] TFVC: tf workfold -noprompt c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master
+2019-07-13T06:46:47.647Z - debug:  [09616] TFVC: spawned new process (duration: 4ms)
+2019-07-13T06:46:48.557Z - debug:  [09616] TFVC: workfold exit code: 100 (duration: 914ms)
+2019-07-13T06:46:48.560Z - debug:  [09616] TFVC errors (via stderr): There is no working folder mapping for c:\Users\wwwmu\OneDrive\Desktop\tone-lab-master.
+
+2019-07-13T06:46:48.560Z - error:  [09616] Execution of the TFVC command line failed unexpectedly.

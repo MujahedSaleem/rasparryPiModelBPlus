@@ -1,0 +1,14 @@
+<div class="rowss">
+    <div class="analyser-right">
+        <app-sink [name]="'-'" [parent]="'DL 9013G'" [signal]="fft"></app-sink>
+        <app-sink [name]="'+'" [parent]="'DL 9013G'" [signal]="fft"></app-sink>
+    </div>
+    <div class="analyser-right">
+
+        <app-sink [name]="'GND'" [parent]="'DL 9013G'" [signal]="fft"></app-sink>
+    </div>
+    <div class="analyser-right">
+        <app-source [devicename]="'DL 9013G'" [name]="'~'" [signal]="wave"></app-source>
+        <app-source [devicename]="'DL 9013G'" [name]="'Minus'" [signal]="wave"></app-source>
+    </div>
+</div>

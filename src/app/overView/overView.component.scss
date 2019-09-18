@@ -1,0 +1,40 @@
+.width {
+    width: 300px;
+}
+
+.automazione_icon {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 13px
+}
+
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.underline {
+    border-bottom: 3px solid #fbb800;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.prod {
+    width: 75%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}

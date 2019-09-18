@@ -1,0 +1,5 @@
+<app-source [devicename]="'DL 10065N'" [name]="'+'" [signal]="clock"></app-source>
+<app-source [devicename]="'DL 10065N'" [name]="'-'" [signal]="clock"></app-source>
+<app-source [devicename]="'DL 10065N'" [name]="'Ground'" [signal]="clock"></app-source>
+<app-sink [name]="'Minus'" [parent]="'DL 10065N'" [signal]="clock"></app-sink>
+<app-sink [name]="'~'" [parent]="'DL 10065N'" [signal]="clock"></app-sink>

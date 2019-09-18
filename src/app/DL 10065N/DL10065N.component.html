@@ -1,0 +1,30 @@
+<div class="rowest">
+    <div class="analyser-right">
+        <div>
+            <app-sink [name]="'N'" [parent]="'DL 10065N'" [signal]="fft"></app-sink>
+            <app-sink [name]="'L3'" [parent]="'DL 10065N'" [signal]="fft"></app-sink>
+            <app-sink [name]="'L2'" [parent]="'DL 10065N'" [signal]="fft"></app-sink>
+            <app-sink [name]="'L1'" [parent]="'DL 10065N'" [signal]="fft"></app-sink>
+
+        </div>
+        <div>
+            <app-source [devicename]="'DL 10065N'" [name]="'N'" [signal]="wave"></app-source>
+            <app-source [devicename]="'DL 10065N'" [name]="'L3'" [signal]="wave"></app-source>
+            <app-source [devicename]="'DL 10065N'" [name]="'L2'" [signal]="wave"></app-source>
+            <app-source [devicename]="'DL 10065N'" [name]="'L1'" [signal]="wave"></app-source>
+        </div>
+    </div>
+
+    <div class="analyser-right">
+        <div>
+            <app-sink [name]="'L-'" [parent]="'DL 10065N'" [signal]="fft"></app-sink>
+            <app-sink [name]="'L+'" [parent]="'DL 10065N'" [signal]="fft"></app-sink>
+
+        </div>
+        <div>
+            <app-source [devicename]="'DL 10065N'" [name]="'L-'" [signal]="wave"></app-source>
+            <app-source [devicename]="'DL 10065N'" [name]="'L+'" [signal]="wave"></app-source>
+        </div>
+
+    </div>
+</div>

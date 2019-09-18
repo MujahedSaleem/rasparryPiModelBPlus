@@ -1,0 +1,17 @@
+.analyser-right {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.spectrum {
+    width: 256px;
+    height: 126px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+}
