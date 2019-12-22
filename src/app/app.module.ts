@@ -51,9 +51,11 @@ import { ViewContentComponent } from './viewContent/viewContent.component';
 import {MatExpansionModule} from '@angular/material/expansion'; 
 import { HttpClientModule } from '@angular/common/http';
 import { DL1017RComponent } from './DL 1017R/DL1017R.component';
+import { BookComponent } from './book/book.component';
 @NgModule({
    declarations: [
       AppComponent,
+      BookComponent,
       DL9031Component,
       HeaderComponent,
       SeqComponent,
@@ -105,6 +107,7 @@ import { DL1017RComponent } from './DL 1017R/DL1017R.component';
       RouterModule.forRoot([
          { path: 'home', component: HomeComponent },
          { path: 'login', component: LoginComponent },
+         { path: 'book', component: BookComponent },
          { path: 'overview', component: OverViewComponent },
          { path: 'viewcontent/:id', component: ViewContentComponent },
          { path: '', redirectTo: 'login', pathMatch: 'full' }

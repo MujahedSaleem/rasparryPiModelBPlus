@@ -13,6 +13,6 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
   onFormSubmit() {
-    this.router.navigate(['/overview']);
+    this.router.navigate(['/book']);
   }
 }
